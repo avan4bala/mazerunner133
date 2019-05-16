@@ -1,3 +1,4 @@
+function [maze, wall, position, endPos] = setup(size)
 %% makes the maze by size input
 maze = zeros(size);
 maze(1, 1:end) = 8;
